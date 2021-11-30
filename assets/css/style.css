@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid rgb(142, 211, 251);
+    background-color: rgb(88, 179, 174);
+    color:whitesmoke;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+}
+
+#btn-remove {
+    border: 1px solid rgb(250, 102, 102); ;
+    background-color: rgba(224, 108, 108, 0.801);
+    color: whitesmoke;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 14pt;
+}
+
+#tarefas {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.task-input{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+:checked+label {
+    text-decoration: line-through;
+    color: grey;
+}
